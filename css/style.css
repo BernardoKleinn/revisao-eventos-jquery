@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: tomato;
+    padding: 25px;
+}
+
+.menu {
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: rgb(148, 54, 48);
+    border-radius: 20px;
+    padding: 10px 0px;
+
+}
+
+.item:hover {
+    background-color: rgb(121, 42, 36);
+}
+
+a {
+    padding: 11px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 400px;
+    background-color: brown;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+    background-color: rgba(255, 99, 71, 0.233);
+    border: 1px solid black;
+    color: #fff;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: tomato;
+    padding: 50px 70px;
+}
+
+#a01 {
+    background-color: rgb(39, 68, 46);
+    gap: 30px;
+}
+
+#a02{
+    gap: 30px;
+}
+
+#a03 {
+    background-color: rgb(39, 49, 68);
+    gap: 15px;
+
+}
+#a04{
+    background-color: rgb(165, 112, 42);
+    gap: 30px;
+
+}
+
+.bola {
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: tomato;
+}
+.quadrado{
+    border: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px; 
+    background-color: rgb(120, 160, 25)
+}
+
+.sobre:hover {
+    cursor: pointer;
+}
+
+#tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgb(126, 54, 64);
+    border: none;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+
+
+}
+
+.ir {
+    border-radius: 5px;
+    background-color: rgb(179, 83, 96);
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(12, 5, 5);
+}
+.btn-showHide{
+    border-radius: 5px;
+    background-color: rgb(70, 36, 67);
+    border: none;
+    width: 100px;
+    height: 60px;
+    margin: 5px;
+    padding: 5px;
+    color: rgb(211, 176, 124);
+}
+
+.botoes_ir {
+    margin: 30px;
+}
+.hk{
+    width: 300px;
+    height: 300px;
+}
+#piscar{
+    width: 100%;
+}
+.form{
+    background-color: rgb(236, 152, 152);
+}

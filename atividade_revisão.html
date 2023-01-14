@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dancing Baby - O site da revisão de jQuery</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo"></div>
+        <h1 id="titulo"></h1>
+        <nav>
+            <ul>
+                <li><a href="#02">Bloco 1</a></li>
+                <li><a href="#04">Bloco 2</a></li>
+                <li><a href="#footer">Rodapé</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+
+            <article id="a01">
+                <h2>Eventos do Mouse</h2>
+                <p>clique na bolinha (mousedown e mouseup)</p>
+                <button class="bola b1" type="button"></button>
+                <p>clique na bolinha (click)</p>
+                <button class="bola b3" type="button"></button>
+                <p>clique na bolinha (dblclick)</p>
+                <button class="bola b4" type="button"></button>
+                <p id="coordenadas">passe o mouse por cima da bolinha (mousemove)</p>
+                <button class="bola b5" type="button"></button>
+                <p>passe o mouse por cima da bolinha (mouseenter e mouseleave)</p>
+                <button class="bola b6" type="button"></button>
+                <p>passe o mouse por cima da bolinha (mouseover)</p>
+                <button class="bola b8" type="button"></button>
+                <p>passe o mouse por cima da bolinha (mouseout)</p>
+                <button class="bola b9" type="button"></button>
+
+            </article>
+            <article id="a02">
+                <h2>Eventos do Teclado</h2>
+                <p>Digite um caractere no campo de texto para fazer o personagem piscar</p>
+                <input type="text" class="form f1" placeholder="Digite um caractere...">
+                <div class="hk">
+                    <img id="piscar" src="img/hk1.png" alt="personagem de hollow knight">
+                </div>
+            </article>
+
+        </section>
+        <section>
+
+            <article id="a03">
+                <h2>Inserindo e Removendo Elementos</h2>
+                <p>Clique nos botões para adicionar elementos com referência na tag ilustrada abaixo</p>
+                <div class="botoes_ir">
+                    <button class="ir antes" type="button">Adicione antes da tag</button>
+                    <button class="ir inicio" type="button">Adicione no início da tag</button>
+                    <button class="ir final" type="button">Adicione no final da tag</button>
+                    <button class="ir depois" type="button">Adicione depois da tag</button>
+                    <button class="ir limpar" type="button">Limpar a bagunça</button>
+                </div>
+                <div id="tag">
+                    <h5>(olá, sou um elemento da tag)</h5>
+                </div>
+
+
+            </article>
+            <article id="a04">
+                <p>Clique no botão para ocultar ou exibir o texto</p>
+                <button class="ir btn-showHide" type="button" onclick="ocultaElementoPorId('teste')">Clique aqui para
+                    ocultar o texto</button>
+                <div id="tag">
+                    <p id="teste">"Na noite de 31 de outubro, mascarou-se e com os seus amigos foi procurar doces e um pouco de aventura. Quando voltou para casa depois do jantar e já sem o disfarce, encontrou um bom local para guardar todos as guloseimas que tinha ganhado, escondendo-as bem, pois não queria partilhá-las com ninguém."</p>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer id="footer">
+        <div id="creditos">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Banana natus necessitatibus neque ut culpa sit,
+                itaque ipsam cum exercitationem doloremque sint unde esse, placeat nisi. Ut, minima deserunt! Quae,
+                quis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum ab error eos omnis quisquam,
+                perferendis corrupti iusto inventore, nostrum praesentium rem vitae illo eligendi! Facere quibusdam
+                dicta nesciunt possimus? Dolore?</p>
+        </div>
+        <div>
+            <img id="social" src="img/social-media-icons.png">
+        </div>
+    </footer>
+
+</body>
+
+</html>
